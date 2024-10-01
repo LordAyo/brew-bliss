@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Bliss Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cartstyle.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./images/Brewblisslogo.svg" alt="Brew bliss logo">
+
+        <nav class="main-nav">
+            <ul>
+                <li><a class="home" href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a class="contact" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <img class="cart-icon" src="./images/shopping-cart.png" alt="shopping cart">
+    </header>
+
+    <main>
+        <h1>Your Cart</h1>
+        <div class="cart-container">
+            <div class="cart-item">
+                <img src="./images/latte.png" alt="Latte">
+                <div class="item-details">
+                    <h2>Latte</h2>
+                    <p>Price: $4.50</p>
+                    <p>Quantity: 2</p>
+                    <button class="remove-button">Remove</button>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <img src="./images/espresso.jpeg" alt="Espresso">
+                <div class="item-details">
+                    <h2>Espresso</h2>
+                    <p>Price: $3.00</p>
+                    <p>Quantity: 1</p>
+                    <button class="remove-button">Remove</button>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <img src="./images/cappuccino.jpeg" alt="Cappuccino">
+                <div class="item-details">
+                    <h2>Cappuccino</h2>
+                    <p>Price: $4.00</p>
+                    <p>Quantity: 1</p>
+                    <button class="remove-button">Remove</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-summary">
+            <h2>Cart Summary</h2>
+            <p>Total: $16.00</p>
+            <button class="checkout-button">Proceed to Checkout</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="current-year"></span> Brew Bliss. All rights reserved.</p>
+            <p><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

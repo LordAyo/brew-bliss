@@ -79,6 +79,8 @@ main h1 {
     margin-left: 120px;
 }
 
+
+
 .menu-items h2 {
     color: #7D5A50;
     font-size: 40px;
@@ -93,6 +95,11 @@ main h1 {
     border: 1px solid #B4997A;
     background: var(--card, linear-gradient(180deg, #F5EDE1 0%, #E7D3C0 100%));
     box-shadow: 0px 4px 4px 0px rgba(216, 188, 168, 0.25);
+}
+
+.card:hover {
+    box-shadow: 0px 4px 10px 0px rgba(216, 188, 168, 0.5); 
+    background: linear-gradient(180deg, #E7D3C0 0%, #F5EDE1 100%); 
 }
 
 /* Footer */
