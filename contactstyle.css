@@ -5,17 +5,17 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(180deg, #F5EDE1 0%, #E7D3C0 100%); 
+    background: linear-gradient(180deg, #F5EDE1 0%, #E7D3C0 100%);
     min-height: 100vh;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     background-color: #fff;
     height: 100px;
-    padding: 0 50px; 
+    padding: 0 50px;
     box-sizing: border-box;
     border-bottom: 1px solid #BDABA7;
 }
@@ -23,10 +23,11 @@ header {
 header .logo {
     height: 91.96px;
     width: 116.77px;
+    margin-bottom: 20px;
     margin-left: 40px;
 }
 
-.contact{
+.contact {
     font-weight: 700;
     color: #CA8636 !important;
 }
@@ -50,4 +51,107 @@ header .logo {
     height: 50px;
     cursor: pointer;
     margin-right: 50px;
+}
+
+
+img {
+    width: 128px;
+    height: 128px;
+}
+
+/* main */
+
+main h1 {
+    color: #CA8636;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+.contact-cards {
+    display: flex;
+    margin-left: 120px;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    padding: 50px 20px;
+    border-radius: 5px;
+    border: 2px solid #B4997A;
+    background: linear-gradient(180deg, #F5EDE1 0%, #E7D3C0 100%);
+    box-shadow: 0px 4px 4px 0px rgba(216, 188, 168, 0.25);
+}
+
+.card h2 {
+    color: #7D5A50;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    width: 478px;
+}
+
+.card p {
+    width: 544px;
+    color: #7D5A50;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+main button {
+    border-radius: 2px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #CA8636;
+    display: flex;
+    height: 70px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 544px;
+    border: none;
+}
+
+/* Footer */
+
+footer {
+    background-color: #E7D3C0;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+    border-top: 1px solid #BDABA7;
+}
+
+.footer-content p {
+    color: #7D5A50;
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #CA8636; 
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline; 
 }
