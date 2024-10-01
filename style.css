@@ -5,17 +5,17 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(180deg, #F5EDE1 0%, #E7D3C0 100%); 
+    background: linear-gradient(180deg, #F5EDE1 0%, #E7D3C0 100%);
     min-height: 100vh;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     background-color: #fff;
-    height: 172px;
-    padding: 0 50px; 
+    height: 100px;
+    padding: 0 50px;
     box-sizing: border-box;
     border-bottom: 1px solid #BDABA7;
 }
@@ -26,7 +26,7 @@ header .logo {
     margin-left: 40px;
 }
 
-.home{
+.home {
     font-weight: 700;
     color: #CA8636 !important;
 }
@@ -50,4 +50,73 @@ header .logo {
     height: 50px;
     cursor: pointer;
     margin-right: 50px;
+}
+
+/* Main */
+main {
+    display: flex;
+    align-items: center;
+    gap: 77px;
+    padding: 120px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.texts h1 {
+    color: #CA8636;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.highlight {
+    font-weight: 700;
+    color: black;
+}
+
+.texts p {
+    color: #7D5A50;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 562px;
+    margin-top: 18px;
+    margin-bottom: 35px;
+}
+
+.bliss-button {
+    width: 210px;
+    padding: 10px 55px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #F7941D;
+    background: linear-gradient(180deg, #F5EDE1 0%, #E7D3C0 100%);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.bliss-button:hover {
+    background: linear-gradient(180deg, #D9B8A7 0%, #C09780 100%); 
+    transform: translateY(-3px);
+}
+
+.bliss-button a:hover {
+    color: #fff;
+}
+
+.bliss-button a {
+    text-decoration: none;
+    color: #CA8636;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
